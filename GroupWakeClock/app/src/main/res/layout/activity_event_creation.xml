@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="#52FFEA00"
+    tools:context=".Event.EventCreationActivity"
+    android:id="@+id/cl_main">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+
+        android:background="#70651FFF"
+        android:hint="Event Creation!"
+        android:id="@+id/tv_info"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/tv_info"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="30sp"
+        android:hint="Event's name"
+        android:id="@+id/et_groupname"
+        android:ems="10" />
+    <requestFocus />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/et_groupname"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="Event description"
+        android:id="@+id/et_description"
+        android:ems="1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/et_description"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="Click to enter date"
+        android:focusable="false"
+        android:id="@+id/et_date" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/et_date"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="Click to enter time"
+        android:focusable="false"
+        android:id="@+id/et_time" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/et_time"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center"
+        android:background="#40651FFF"
+        android:hint="Select default Alarm Type and Complexity:"
+        android:id="@+id/tv_someTv"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_someTv"
+        android:layout_margin="20dp"
+        android:hint="Alarm Type:"
+        android:id="@+id/tv_type"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tv_type"
+        app:layout_constraintStart_toEndOf="@id/tv_type"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/spnr_type"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_type"
+        android:layout_margin="20dp"
+        android:hint="Alarm Complexity:"
+        android:id="@+id/tv_complexity"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/tv_complexity"
+        app:layout_constraintStart_toEndOf="@id/tv_complexity"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/spnr_complexity"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintTop_toBottomOf="@id/spnr_complexity"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+
+        android:backgroundTint="#8A471874"
+        android:src="@android:drawable/ic_menu_send"
+        android:id="@+id/fab_createGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

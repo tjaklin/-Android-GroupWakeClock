@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tjaklin.groupwakeclock">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!-- Login -->
+        <activity android:name=".Home.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other Activities -->
+        <activity android:name=".Home.HomeActivity" />
+        <activity android:name=".Event.EventCreationActivity" />
+        <activity android:name=".Event.EventActivity" />
+        <activity android:name=".Event.AddMemberActivity" />
+        <activity android:name=".Friend.AddFriendActivity" />
+        <activity android:name=".AlarmGoingOff.AlarmGoingOffActivity" />
+
+        <!-- Receivers -->
+        <receiver android:name=".AlarmGoingOff.AlarmGoingOffReceiver" />
+        <receiver android:name=".onBootCompleted.BootCompletionReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".DailyReminder.DailyReminderReceiver" />
+
+        <!-- Services -->
+        <service android:name=".AlarmGoingOff.AlarmGoingOffService" android:enabled="true" />
+        <service android:name=".onBootCompleted.RearmAlarmsService" android:enabled="true" />
+    </application>
+
+</manifest>

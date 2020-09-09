@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#37009688"
+    tools:context=".Event.EventActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:gravity="center_horizontal"
+        android:background="#AE009688"
+        app:popupTheme="@style/CustomMenu"
+        android:id="@+id/toolbar" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textStyle="italic"
+                android:hint="You're viewing event:" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:hint="Here goes eventname"
+                android:id="@+id/toolbar_tv_eventname"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+
+        android:background="#009688"
+        android:id="@+id/ll_buttons">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Name+Description"
+            android:src="@drawable/ic_info_outline_black_24dp"
+            android:background="@drawable/shape_event_info_button"
+            android:id="@+id/ib_eventInfo" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Time info"
+            android:src="@drawable/ic_access_alarm_black_24dp"
+            android:background="@drawable/shape_event_info_button"
+            android:id="@+id/ib_timeInfo" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Member info"
+            android:src="@drawable/ic_event_black_24dp"
+            android:background="@drawable/shape_event_info_button"
+            android:id="@+id/ib_memberInfo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        android:visibility="gone"
+        android:background="@drawable/shape_event_info_awake_members"
+        android:id="@+id/ll_awake">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="top|center"
+
+            android:textSize="17sp"
+            android:textStyle="bold"
+
+            android:text="Event started!"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+
+            android:textSize="13sp"
+            android:textStyle="italic"
+
+            android:text="( Click on 'Members' button to see who's awake! )"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            android:hint="0 / NaN awake!"
+            android:background="#F5FFEA00"
+            android:id="@+id/awake_tv_counter"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl_chat">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/ll_input"
+            android:id="@+id/rv_chat"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+
+            android:orientation="horizontal"
+            android:background="#AE009688"
+            android:id="@+id/ll_input">
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginStart="5dp"
+                android:paddingStart="15dp"
+
+                android:hint="enter your msg"
+                android:background="@drawable/shape_event_message_input"
+                android:id="@+id/et_messageContent"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+
+                android:paddingStart="5dp"
+
+                android:src="@android:drawable/ic_menu_send"
+                android:background="@drawable/shape_event_message_input"
+
+                android:id="@+id/ib_messageSend"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

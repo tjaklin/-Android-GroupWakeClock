@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "288922545049",
+    "firebase_url": "https://groupwakeclock.firebaseio.com",
+    "project_id": "groupwakeclock",
+    "storage_bucket": "groupwakeclock.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288922545049:android:b2e9e34b0cf07a4674c108",
+        "android_client_info": {
+          "package_name": "com.tjaklin.groupwakeclock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288922545049-409qe3ddoq4j6ek82q3pfijcl69l8f86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tjaklin.groupwakeclock",
+            "certificate_hash": "19414525725bd30efe3f577700c7198586cec579"
+          }
+        },
+        {
+          "client_id": "288922545049-dmj88m8pejq0ikrm262o88ebbgrr7dbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJB03MfySUf-TmOXul_n2pqHz4sgFzUxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288922545049-dmj88m8pejq0ikrm262o88ebbgrr7dbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

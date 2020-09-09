@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Event.EventActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="List of members"
+        android:background="#AE009688"
+        android:id="@+id/tv_header" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@id/tv_header"
+
+        android:background="#37009688"
+        android:id="@+id/rv_members" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:visibility="visible"
+        android:hint="Group has no members yet!"
+        android:background="#37009688"
+        android:id="@+id/tv_noData"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@id/rv_members"
+        android:layout_alignEnd="@id/rv_members"
+
+        android:layout_margin="30dp"
+        android:src="@drawable/ic_add_member_24dp"
+        android:id="@+id/fab_addMembers"/>
+
+</RelativeLayout>

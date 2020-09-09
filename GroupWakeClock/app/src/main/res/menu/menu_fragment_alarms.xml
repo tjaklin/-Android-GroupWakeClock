@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Look for new alarms"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:iconTintMode="multiply"
+        app:showAsAction="ifRoom"
+        android:id="@+id/option_refreshSQL"/>
+
+    <item
+        android:title="Log out"
+        app:showAsAction="never"
+        android:id="@+id/option_logout"/>
+
+</menu>
