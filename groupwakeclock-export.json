@@ -1,0 +1,671 @@
+{
+  "alarms" : {
+    "image" : [ {
+      "question" : {
+        "answer" : "yes",
+        "questionID" : "question_0.png"
+      }
+    }, {
+      "apple" : {
+        "answer" : "apple",
+        "questionID" : "apple_1.png"
+      },
+      "car" : {
+        "answer" : "car",
+        "questionID" : "car_1.png"
+      },
+      "cat" : {
+        "answer" : "cat",
+        "questionID" : "cat_1.png"
+      },
+      "dog" : {
+        "answer" : "dog",
+        "questionID" : "dog_1.png"
+      },
+      "sun" : {
+        "answer" : "sun",
+        "questionID" : "sun_1.png"
+      }
+    }, {
+      "banana" : {
+        "answer" : "banana",
+        "questionID" : "banana_2.png"
+      },
+      "cloud" : {
+        "answer" : "cloud",
+        "questionID" : "cloud_2.png"
+      },
+      "train" : {
+        "answer" : "train",
+        "questionID" : "train_2.png"
+      },
+      "wallet" : {
+        "answer" : "wallet",
+        "questionID" : "wallet_2.png"
+      },
+      "window" : {
+        "answer" : "window",
+        "questionID" : "window_2.png"
+      }
+    }, {
+      "alien" : {
+        "answer" : "alien",
+        "questionID" : "alien_3.png"
+      },
+      "basketball" : {
+        "answer" : "basketball",
+        "questionID" : "basketball_3.png"
+      },
+      "forest" : {
+        "answer" : "forest",
+        "questionID" : "forest_3.png"
+      },
+      "glass" : {
+        "answer" : "glass",
+        "questionID" : "glass_3.png"
+      },
+      "handshake" : {
+        "answer" : "handshake",
+        "questionID" : "handshake_3.png"
+      }
+    }, {
+      "chef" : {
+        "answer" : "chef",
+        "questionID" : "chef_4.png"
+      },
+      "germany" : {
+        "answer" : "germany",
+        "questionID" : "germany_4.png"
+      },
+      "gorilla" : {
+        "answer" : "gorilla",
+        "questionID" : "gorilla_4.png"
+      },
+      "keys" : {
+        "answer" : "keys",
+        "questionID" : "keys_4.png"
+      },
+      "supermario" : {
+        "answer" : "supermario, super mario",
+        "questionID" : "supermario_4.png"
+      }
+    }, {
+      "ivosanader" : {
+        "answer" : "ivosanader, ivo sanader, sanader, ivo",
+        "questionID" : "ivosanader_5.png"
+      },
+      "lg" : {
+        "answer" : "lg",
+        "questionID" : "lg_5.png"
+      },
+      "milkyway" : {
+        "answer" : "milkyway, milky way",
+        "questionID" : "milkyway_5.png"
+      },
+      "mole" : {
+        "answer" : "mole",
+        "questionID" : "mole_5.png"
+      },
+      "winniethepooh" : {
+        "answer" : "winniethepooh, winnie-the-pooh, winnie the pooh, winnie, pooh",
+        "questionID" : "winnie-the-pooh_5.png"
+      }
+    } ],
+    "math" : [ {
+      "question" : {
+        "answer" : "4",
+        "questionID" : "question_0.png"
+      }
+    }, {
+      "linearna" : {
+        "answer" : "31",
+        "questionID" : "linearna_1.png"
+      }
+    }, {
+      "linearna" : {
+        "answer" : "2",
+        "questionID" : "linearna_2.png"
+      }
+    }, {
+      "linearna" : {
+        "answer" : "2",
+        "questionID" : "linearna_3.png"
+      }
+    }, {
+      "linearna" : {
+        "answer" : "2",
+        "questionID" : "linearna_4.png"
+      }
+    }, {
+      "linearna" : {
+        "answer" : "2",
+        "questionID" : "linearna_5.png"
+      }
+    } ]
+  },
+  "chats" : {
+    "-M9Pc2zhI2KIz0IXm9Lu" : {
+      "-M9Pc6GFSoIzPJq5uTX-" : {
+        "content" : "oko 16 ",
+        "senderID" : "user1@proba.com"
+      }
+    },
+    "-M9Pc2zhI2KIz0IXm9Lv" : {
+      "-M9Pc2zjYzKJfL8mqHfz" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9PcBH4_Wb7hCIsOv25" : {
+      "-M9PcBH6AM6g8tdsP_n-" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9PdCxPV7c-TAdWMGGB" : {
+      "-M9PdPupimAjT47L-Geg" : {
+        "content" : "User user1@proba.com is awake!",
+        "senderID" : "system"
+      }
+    },
+    "-M9PdCxRL_5E4yFLMqUU" : {
+      "-M9PdCxUtjG8THsKSRXS" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9Pe7E-PshTS48wciDQ" : {
+      "-M9Pe7E0bE5SO8p1U15V" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9Rx0jpUOr_tPZ5hbYz" : {
+      "-M9Rx0jriMXlf1tTvtH4" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9RxdEP5B3gNZ9r42j8" : {
+      "-M9RyB-bUnOq4BT5d62Q" : {
+        "content" : "nadam se da neces prespavati lp",
+        "senderID" : "user4@proba.com"
+      },
+      "-M9RyCItiprgN6P_9WOL" : {
+        "content" : "he he",
+        "senderID" : "user1@proba.com"
+      }
+    },
+    "-M9RxdEQCiUkHvJfOUnL" : {
+      "-M9RxdESytWBIeZy_wps" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9RyTDbdYqgObfnr0JV" : {
+      "-M9RybivCDFQst3jIsZc" : {
+        "content" : "ja cekam ovdje",
+        "senderID" : "user1@proba.com"
+      },
+      "-M9RyvIXxQwVQZUVnLL0" : {
+        "content" : "User user1@proba.com is awake!",
+        "senderID" : "system"
+      },
+      "-M9RzN4DCtR0ylgzhBKN" : {
+        "content" : "User user4@proba.com is awake!",
+        "senderID" : "system"
+      },
+      "-M9RzUV8qIKySLxGlwBp" : {
+        "content" : "evo budan",
+        "senderID" : "user4@proba.com"
+      }
+    },
+    "-M9RyTDcfMnj5u-2EcDD" : {
+      "-M9RyTDdtzSLtR1u1-nY" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9S8eCzVUm3ldf8ZVz2" : {
+      "-M9S8zRy1AOVCu8whIhA" : {
+        "content" : "poruka 1",
+        "senderID" : "user1@proba.com"
+      },
+      "-M9S90XuI6WAlcEV3MMh" : {
+        "content" : "pozdrsav publici",
+        "senderID" : "user1@proba.com"
+      },
+      "-M9S9ARDtbOak6YBvObB" : {
+        "content" : "User user1@proba.com is awake!",
+        "senderID" : "system"
+      },
+      "-M9S9KkMXe1FbpzPtMvA" : {
+        "content" : "User rma@proba.com is awake!",
+        "senderID" : "system"
+      },
+      "-M9cVOYWIPB3HcYt_AzD" : {
+        "content" : "User rma@proba.com is awake!",
+        "senderID" : "system"
+      }
+    },
+    "-M9S8eCzVUm3ldf8ZVz3" : {
+      "-M9S8eD1fyb5njLan65O" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9S9l-tNkWf3V_H-utm" : {
+      "-M9S9l-vmCWcKLn4VF85" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9STaXuTV7SFRprjwQa" : {
+      "-M9STaXwCc7oZqy0LmaF" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9STxtpVATmuFV_-w7L" : {
+      "-M9STxtrz1NDktyNAXvS" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9SWNSdmW75o4ZKPWEm" : {
+      "-M9SWNSfdeBR3cksIYzR" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9SXEds_ugR1qfQFpJV" : {
+      "-M9SXEduDBp7GXCBR9k0" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9SdpdFIJG1ocgmpAhU" : {
+      "-M9SdpdHzx-Hh__18qvx" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9SfZyUUs2LoIj5rSbG" : {
+      "-M9SfZyVPB_iMRhbFdd3" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9SfmrDPyswOlV_OJHQ" : {
+      "-M9SfmrFtwXeKP4exT6O" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9ShJP1mYtqZO8IPaOF" : {
+      "-M9ShKW8aDSw2kcNw0Dg" : {
+        "content" : "poyy",
+        "senderID" : "user2@proba.com"
+      }
+    },
+    "-M9ShJP2i6rI5yM6A0eF" : {
+      "-M9ShJP4LYjDzdpHPeZ4" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-M9ShfBHSSTumeCptwvo" : {
+      "-M9ShnG3cv0IxDgONl6p" : {
+        "content" : "User user2@proba.com is awake!",
+        "senderID" : "system"
+      }
+    },
+    "-M9ShfBJYxKL41OBJL0S" : {
+      "-M9ShfBLd3IiD_SSXVzI" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "-MBOMpfu935MDIuwgVxs" : {
+      "-MBOMrgMrUaS-6h48PeI" : {
+        "content" : "fruy",
+        "senderID" : "user2@proba.com"
+      },
+      "-MBOOcLKAsWzwEkVdHPB" : {
+        "content" : "User user2@proba.com is awake!",
+        "senderID" : "system"
+      },
+      "-MGNHDo_wyDfE6bG-R5C" : {
+        "content" : "User user2@proba.com is awake!",
+        "senderID" : "system"
+      }
+    },
+    "-MBOMpfvK38VcnZmTAW8" : {
+      "-MBOMpfys2TyO1frmTSf" : {
+        "content" : "initial / placeholder groupChat msg!",
+        "senderID" : "system"
+      }
+    },
+    "fakeChatID" : {
+      "fakeChatIDMessageID" : {
+        "content" : "ovo je fejk poruka",
+        "senderID" : "neki@korisnik.com"
+      }
+    }
+  },
+  "friendships" : {
+    "8AKcoA0aLnhwMQVS4W9unJUCHm43" : {
+      "-MBON8c0eJHHX-kJ6k3q" : {
+        "friendID" : "fXRrghnaHsfLWioPxMFxzN9W5Rl2"
+      },
+      "-MBONBkH-waUyUUI3SEX" : {
+        "friendID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2"
+      }
+    },
+    "HjZUI4q4PhhemnjWiCgbFsITG3J2" : {
+      "-M9RwmcPBz2vpqOuzGgx" : {
+        "friendID" : "fXRrghnaHsfLWioPxMFxzN9W5Rl2"
+      },
+      "-M9S8SAhjY2bFu_vNBcN" : {
+        "friendID" : "uX5SwJu15jdLmOpWKjteMLVdt1B2"
+      },
+      "-MBONBkH-waUyUUI3SEY" : {
+        "friendID" : "8AKcoA0aLnhwMQVS4W9unJUCHm43"
+      }
+    },
+    "fXRrghnaHsfLWioPxMFxzN9W5Rl2" : {
+      "-M9RwmcPBz2vpqOuzGgw" : {
+        "friendID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2"
+      },
+      "-MBON8c0eJHHX-kJ6k3r" : {
+        "friendID" : "8AKcoA0aLnhwMQVS4W9unJUCHm43"
+      }
+    },
+    "someFakeUserID" : {
+      "someFakeFriendshipID" : {
+        "friendID" : "someFakeUserID2"
+      }
+    },
+    "someFakeUserID2" : {
+      "someFakeFriendshipID2" : {
+        "friendID" : "someFakeUserID"
+      }
+    },
+    "uX5SwJu15jdLmOpWKjteMLVdt1B2" : {
+      "-M9S8SAgCX--oawgJXEB" : {
+        "friendID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2"
+      }
+    }
+  },
+  "groups" : {
+    "-M9Pc2zmo_8aAQsI7dd8" : {
+      "adminUserID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2",
+      "datetime" : 1592056800167,
+      "defaultAlarmComplexity" : 3,
+      "defaultAlarmType" : "image",
+      "description" : "idemo plivat u subotu podne",
+      "groupChatID" : "-M9Pc2zhI2KIz0IXm9Lu",
+      "groupname" : "Plivanje za vikend"
+    },
+    "-M9PcBHAy4J3Pm5Dj_IK" : {
+      "adminUserID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2",
+      "datetime" : 1591732500590,
+      "defaultAlarmComplexity" : 0,
+      "defaultAlarmType" : "image",
+      "description" : "nd",
+      "groupChatID" : "-M9PcBH4_Wb7hCIsOv24",
+      "groupname" : "proba"
+    },
+    "-M9PdCxdK-bwgLoHrpx_" : {
+      "adminUserID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2",
+      "datetime" : 1591732440869,
+      "defaultAlarmComplexity" : 0,
+      "defaultAlarmType" : "image",
+      "description" : "b",
+      "groupChatID" : "-M9PdCxPV7c-TAdWMGGB",
+      "groupname" : "proba"
+    },
+    "-M9Pe7E5JuaU0rik_6YV" : {
+      "adminUserID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2",
+      "datetime" : 1591732740770,
+      "defaultAlarmComplexity" : 0,
+      "defaultAlarmType" : "image",
+      "description" : "u",
+      "groupChatID" : "-M9Pe7Dz6b6chIZ2lwwt",
+      "groupname" : "proba2"
+    },
+    "-M9Rx0jvC2Rk6pRIBsv-" : {
+      "adminUserID" : "fXRrghnaHsfLWioPxMFxzN9W5Rl2",
+      "datetime" : 1591771800365,
+      "defaultAlarmComplexity" : 3,
+      "defaultAlarmType" : "math",
+      "description" : "Bez opisa",
+      "groupChatID" : "-M9Rx0jpUOr_tPZ5hbYy",
+      "groupname" : "Probni dogadaj"
+    },
+    "-M9RxdEWukXRSZUVXstp" : {
+      "adminUserID" : "T6HvQTKieSVdUd01SJiqv1hHZJX2",
+      "datetime" : 1591771800976,
+      "defaultAlarmComplexity" : 4,
+      "defaultAlarmType" : "image",
+      "description" : "Opis",
+      "groupChatID" : "-M9RxdEP5B3gNZ9r42j8",
+      "groupname" : "Probni event"
+    },
+    "-M9RyTDfDs4-g0kG5TMJ" : {
+      "adminUserID" : "T6HvQTKieSVdUd01SJiqv1hHZJX2",
+      "datetime" : 1591771620687,
+      "defaultAlarmComplexity" : 3,
+      "defaultAlarmType" : "image",
+      "description" : "a",
+      "groupChatID" : "-M9RyTDbdYqgObfnr0JV",
+      "groupname" : "probni"
+    },
+    "-M9S8eD6COquzP2fcUCo" : {
+      "adminUserID" : "uX5SwJu15jdLmOpWKjteMLVdt1B2",
+      "datetime" : 1591774560775,
+      "defaultAlarmComplexity" : 3,
+      "defaultAlarmType" : "image",
+      "description" : "prezentacija",
+      "groupChatID" : "-M9S8eCzVUm3ldf8ZVz2",
+      "groupname" : "RMA"
+    },
+    "-M9S9l00eeK6jrgtih-n" : {
+      "adminUserID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2",
+      "datetime" : 1591778280843,
+      "defaultAlarmComplexity" : 4,
+      "defaultAlarmType" : "image",
+      "description" : "d",
+      "groupChatID" : "-M9S9l-sAflXXMlmg-Qn",
+      "groupname" : "okd"
+    },
+    "-M9STaY1MPMvRDmKB-hc" : {
+      "adminUserID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2",
+      "datetime" : 1591779960091,
+      "defaultAlarmComplexity" : 0,
+      "defaultAlarmType" : "math",
+      "description" : "b",
+      "groupChatID" : "-M9STaXssQWg4GYtIG-M",
+      "groupname" : "a"
+    },
+    "-M9STxtwjL3vN4s8Yu8S" : {
+      "adminUserID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2",
+      "datetime" : 1591780200162,
+      "defaultAlarmComplexity" : 1,
+      "defaultAlarmType" : "math",
+      "description" : "g",
+      "groupChatID" : "-M9STxtoPvRfue16n45d",
+      "groupname" : "g"
+    },
+    "-M9SWNSly4Py_WenvGlY" : {
+      "adminUserID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2",
+      "datetime" : 1591780800667,
+      "defaultAlarmComplexity" : 3,
+      "defaultAlarmType" : "math",
+      "description" : "h",
+      "groupChatID" : "-M9SWNScrNiklJtvLCvZ",
+      "groupname" : "h"
+    },
+    "-M9SXEdysUhPkGZy23CQ" : {
+      "adminUserID" : "8AKcoA0aLnhwMQVS4W9unJUCHm43",
+      "datetime" : 1591781100583,
+      "defaultAlarmComplexity" : 0,
+      "defaultAlarmType" : "math",
+      "description" : "v",
+      "groupChatID" : "-M9SXEdr03Jp8yblmOj4",
+      "groupname" : "a"
+    },
+    "-M9SdpdL5ibRx0MELOqd" : {
+      "adminUserID" : "8AKcoA0aLnhwMQVS4W9unJUCHm43",
+      "datetime" : 1591783080414,
+      "defaultAlarmComplexity" : 4,
+      "defaultAlarmType" : "image",
+      "description" : "v",
+      "groupChatID" : "-M9SdpdFIJG1ocgmpAhT",
+      "groupname" : "v"
+    },
+    "-M9SfZyYWkEsSVnN8B_q" : {
+      "adminUserID" : "8AKcoA0aLnhwMQVS4W9unJUCHm43",
+      "datetime" : 1591783800821,
+      "defaultAlarmComplexity" : 0,
+      "defaultAlarmType" : "image",
+      "description" : "g",
+      "groupChatID" : "-M9SfZyUUs2LoIj5rSbF",
+      "groupname" : "v"
+    },
+    "-M9SfmrKYgBLgemI0Jqf" : {
+      "adminUserID" : "8AKcoA0aLnhwMQVS4W9unJUCHm43",
+      "datetime" : 1591784100450,
+      "defaultAlarmComplexity" : 0,
+      "defaultAlarmType" : "math",
+      "description" : "g",
+      "groupChatID" : "-M9SfmrCBvMHHWNcs7e-",
+      "groupname" : "g"
+    },
+    "-M9ShJP83AuzLmughEH1" : {
+      "adminUserID" : "8AKcoA0aLnhwMQVS4W9unJUCHm43",
+      "datetime" : 1591783860623,
+      "defaultAlarmComplexity" : 3,
+      "defaultAlarmType" : "math",
+      "description" : "t",
+      "groupChatID" : "-M9ShJP1mYtqZO8IPaOF",
+      "groupname" : "g"
+    },
+    "-M9ShfBP7WMPG2Um5IGF" : {
+      "adminUserID" : "8AKcoA0aLnhwMQVS4W9unJUCHm43",
+      "datetime" : 1591783920350,
+      "defaultAlarmComplexity" : 3,
+      "defaultAlarmType" : "math",
+      "description" : "v",
+      "groupChatID" : "-M9ShfBHSSTumeCptwvo",
+      "groupname" : "g"
+    },
+    "-MBOMpg3rDo5zLl9q2b2" : {
+      "adminUserID" : "8AKcoA0aLnhwMQVS4W9unJUCHm43",
+      "datetime" : 1593858900355,
+      "defaultAlarmComplexity" : 4,
+      "defaultAlarmType" : "image",
+      "description" : "nebitan je dizajn",
+      "groupChatID" : "-MBOMpfu935MDIuwgVxs",
+      "groupname" : "truhla"
+    },
+    "someFakeGroupID" : {
+      "adminUserID" : "someFakeUserID",
+      "datetime" : 39187387123,
+      "defaultAlarmComplexity" : 0,
+      "defaultAlarmType" : "math",
+      "description" : "neki opis",
+      "groupChatID" : "fakeChatID",
+      "groupname" : "novi event"
+    }
+  },
+  "memberships" : {
+    "-M9Pc2zu1bnWEAe3sP1G" : {
+      "alarmComplexity" : 4,
+      "alarmType" : "image",
+      "datetime" : 1592056800167,
+      "groupID" : "-M9Pc2zmo_8aAQsI7dd8",
+      "isAwake" : false,
+      "userID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2"
+    },
+    "-M9Rx0k1mDNPw1PPCHKp" : {
+      "alarmComplexity" : 3,
+      "alarmType" : "math",
+      "datetime" : 1591771800365,
+      "groupID" : "-M9Rx0jvC2Rk6pRIBsv-",
+      "isAwake" : false,
+      "userID" : "fXRrghnaHsfLWioPxMFxzN9W5Rl2"
+    },
+    "-M9RyTDlNvW9OdZaBJO7" : {
+      "alarmComplexity" : 0,
+      "alarmType" : "math",
+      "datetime" : 1591771620687,
+      "groupID" : "-M9RyTDfDs4-g0kG5TMJ",
+      "isAwake" : true,
+      "userID" : "T6HvQTKieSVdUd01SJiqv1hHZJX2"
+    },
+    "-M9S8nzacqQ-DFNvb5yb" : {
+      "alarmComplexity" : 0,
+      "alarmType" : "math",
+      "datetime" : 1591774560775,
+      "groupID" : "-M9S8eD6COquzP2fcUCo",
+      "isAwake" : true,
+      "userID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2"
+    },
+    "-M9STxu3LJKdKfa8hNLx" : {
+      "alarmComplexity" : 1,
+      "alarmType" : "math",
+      "datetime" : 1591780200162,
+      "groupID" : "-M9STxtwjL3vN4s8Yu8S",
+      "isAwake" : false,
+      "userID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2"
+    },
+    "-M9SWNStoIT_Vjn_ZzX_" : {
+      "alarmComplexity" : 3,
+      "alarmType" : "math",
+      "datetime" : 1591780800667,
+      "groupID" : "-M9SWNSly4Py_WenvGlY",
+      "isAwake" : false,
+      "userID" : "HjZUI4q4PhhemnjWiCgbFsITG3J2"
+    },
+    "-MBONFVEzOd9euxRqAjg" : {
+      "alarmComplexity" : 4,
+      "alarmType" : "image",
+      "datetime" : 1593858900355,
+      "groupID" : "-MBOMpg3rDo5zLl9q2b2",
+      "isAwake" : false,
+      "userID" : "fXRrghnaHsfLWioPxMFxzN9W5Rl2"
+    },
+    "someFakeMembershipID" : {
+      "alarmComplexity" : 0,
+      "alarmType" : "math",
+      "datetime" : 39187387123,
+      "groupID" : "someFakeGroupID",
+      "isAwake" : false,
+      "userID" : "someFakeUserID"
+    }
+  },
+  "users" : {
+    "8AKcoA0aLnhwMQVS4W9unJUCHm43" : {
+      "email" : "user2@proba.com"
+    },
+    "HjZUI4q4PhhemnjWiCgbFsITG3J2" : {
+      "email" : "user1@proba.com"
+    },
+    "T6HvQTKieSVdUd01SJiqv1hHZJX2" : {
+      "email" : "user4@proba.com"
+    },
+    "fXRrghnaHsfLWioPxMFxzN9W5Rl2" : {
+      "email" : "user3@proba.com"
+    },
+    "someFakeUserID" : {
+      "email" : "fake@user.com"
+    },
+    "someFakeUserID2" : {
+      "email" : "fake2@user.com"
+    },
+    "uX5SwJu15jdLmOpWKjteMLVdt1B2" : {
+      "email" : "rma@proba.com"
+    }
+  }
+}
