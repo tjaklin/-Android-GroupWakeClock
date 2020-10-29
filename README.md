@@ -1,35 +1,33 @@
 # GroupWakeClock
 
-##### Aplikacija za organiziranje događaja.
+##### Event organiser mobile application.
 
-##### Korisnici
--- Registrirajte se, stvorite Događaj.
+##### Users
+-- Register as a new User, create your own Event.
 
--- Dodajte prijatelje, dodajte ih u Događaje.
+-- Add friends, add them to your Events.
 
-##### Događaji
--- Definirani imenom, datumom i vremenom izvođenja.
+##### Events
+-- Created by assigning a name, date & time.
 
--- U određeni datum+vrijeme, aktivira se Budilica.
+-- An Event will trigger it's Alarm on specified date & time.
 
-##### Budlica
--- Budilica vibrira preko ForegroundService objekta i ne može se ugasiti.
+##### Alarm
+-- An Alarm vibrates using a ForegroundService object and it cannot be turned off.
 
--- Predviđani način gašenja je odgovor na predstavljeno pitanje.
+-- An Alarm presents a question that the user must answer in order to turn off the Alarm.
 
--- Pitanje je slika koja predstavlja neki objekt ili matematički zadatak.
+-- A question is a picture of either a mathematical assignment or an object.
 
---- Traži se točan odgovor.
-
---- Nakon 2 min vibriranja, gasi se automatski.
+--- If a question is not aswered in 2 minutes, the Alarm turns itself off.
 
 
-##### Demo video korištenja aplikacije
+##### Demo of app usage (text typed in app's chat is in croatian)
 -- https://youtu.be/PrChyb7cN8E
 
-##### Korišteni alati
+##### Tools used
 -- Android Studio, Java
 
--- SQLite, Firebase (dio podataka u lokalnoj, dio u udaljenoj bazi)
+-- SQLite, Firebase (a portion of the data is stored locally, the remainder is stored in Firebase)
 
--- Izgled Firebase baze je u datoteci 'groupwakeclock-export.json'
+-- The Firebase node scheme i use is presented in the 'groupwakeclock-export.json' file.
